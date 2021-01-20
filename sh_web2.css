@@ -12,10 +12,23 @@ html {
     padding : 20px;
 }
 
-h2{
-  color : #FFF7FF;
-  text-shadow: 2px 2px 0px #FFDAE5, 4px 4px 0px #FFBEC9, 8px 8px 0px #F1A3AD;
+h1{
+    font-weight: 200;
+    margin: 0.4em 0;
+    font-size: 3.5em;
 }
+
+h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+/*h2{*/
+/*  color : #FFF7FF;*/
+/*  text-shadow: 2px 2px 0px #FFDAE5, 4px 4px 0px #FFBEC9, 8px 8px 0px #F1A3AD;*/
+/*}*/
 
 .grid-container {
   display: grid;
@@ -42,7 +55,7 @@ h2{
 }
 
 .cafe_image{
-    max-width : 78%;
+    max-width : 62%;
     height : auto;
     object-fit : cover;
     opacity : 1;
@@ -55,7 +68,7 @@ h2{
 }
 
 .image{
-    max-width : 87%;
+    max-width : 68%;
     height : auto;
     object-fit : cover;
     opacity : 1;
@@ -85,4 +98,3 @@ h2{
     height: 420px;
     overflow: hidden;
 }
-
