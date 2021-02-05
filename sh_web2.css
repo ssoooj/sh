@@ -38,7 +38,7 @@ h2 {
 }
 
 .long_image{
-    width : 300px;
+    max-width : 100%;
     height : 500px;
     object-fit : cover;
     opacity : 1;
